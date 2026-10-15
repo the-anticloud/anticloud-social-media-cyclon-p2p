@@ -1,0 +1,95 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:919389c5-0031-50af-92fb-f32d2069bfd3",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T17:41:39Z",
+    "component": {
+      "type": "application",
+      "name": "CYCLON_P2P",
+      "version": "75866f03fd9b",
+      "bom-ref": "pkg:generic/anticloud/CYCLON_P2P@75866f03fd9b",
+      "purl": "pkg:generic/anticloud/CYCLON_P2P@75866f03fd9b",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "75866f03fd9bb7de0abde920bd4761660de5a389"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/nicktindall/cyclon.p2p"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "^10.14.22",
+      "purl": "pkg:npm/@types/node@^10.14.22",
+      "bom-ref": "npm/@types/node@^10.14.22"
+    },
+    {
+      "type": "library",
+      "name": "cyclon.p2p-common",
+      "version": "^0.1.11",
+      "purl": "pkg:npm/cyclon.p2p-common@^0.1.11",
+      "bom-ref": "npm/cyclon.p2p-common@^0.1.11"
+    },
+    {
+      "type": "library",
+      "name": "@istanbuljs/nyc-config-typescript",
+      "version": "^0.1.3",
+      "purl": "pkg:npm/@istanbuljs/nyc-config-typescript@^0.1.3",
+      "bom-ref": "npm/@istanbuljs/nyc-config-typescript@^0.1.3"
+    },
+    {
+      "type": "library",
+      "name": "jasmine",
+      "version": "^2.99.0",
+      "purl": "pkg:npm/jasmine@^2.99.0",
+      "bom-ref": "npm/jasmine@^2.99.0"
+    },
+    {
+      "type": "library",
+      "name": "nyc",
+      "version": "^14.1.1",
+      "purl": "pkg:npm/nyc@^14.1.1",
+      "bom-ref": "npm/nyc@^14.1.1"
+    },
+    {
+      "type": "library",
+      "name": "source-map-support",
+      "version": "^0.5.13",
+      "purl": "pkg:npm/source-map-support@^0.5.13",
+      "bom-ref": "npm/source-map-support@^0.5.13"
+    },
+    {
+      "type": "library",
+      "name": "ts-node",
+      "version": "^8.4.1",
+      "purl": "pkg:npm/ts-node@^8.4.1",
+      "bom-ref": "npm/ts-node@^8.4.1"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^3.6.4",
+      "purl": "pkg:npm/typescript@^3.6.4",
+      "bom-ref": "npm/typescript@^3.6.4"
+    }
+  ]
+}
